@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    padding: 8px;
+    margin: auto auto 20px auto;
+}
+
+button {
+    margin: auto;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.instructions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.instructions p {
+    width: 200px;
+    text-align: justify;
+    font-size: 14px;
+    color: #555;
+    margin: 10px auto 0 auto;
+}
+
+#qrcode {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
